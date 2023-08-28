@@ -9,7 +9,7 @@ kind: Route
 metadata:
   name: guestbook
 spec:
-  host: guestbook.apps.<your-ocp-cluster-name>.<your-ocp-cluster-domain>
+  host: guestbook.apps.site1.example.com
   port:
     targetPort: 80
   to:
